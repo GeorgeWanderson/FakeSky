@@ -1,0 +1,60 @@
+.circle03 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 520px;
+    margin: auto;
+    opacity: 1;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+     animation:spin 2s linear infinite;
+}
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(260deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(260deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(260deg); transform:rotate(360deg); } }
+    
+.circle02 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 520px;
+    margin: auto;
+    opacity: 1;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+     animation:spin 4s linear infinite;
+}
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.circle01 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 520px;
+    margin: auto;
+    opacity: 1;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+     animation:spin 6s linear infinite;
+}
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(460deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(460deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(460deg); transform:rotate(360deg); } }
+
+ body {
+    background-image: url("https://stormandsky.com/gif/14.gif");
+ }
